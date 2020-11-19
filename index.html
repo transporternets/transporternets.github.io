@@ -27,34 +27,22 @@
                         <p><br>Conference on Robot Learning (CoRL) 2020</p>
                     </div>
                     <p>
-                        <b>Abstract</b>. Robotic manipulation can be formulated as inducing a sequence of spatial displacements: where the space being moved can encompass an object, part of an object, or end effector. In this work, we propose the Transporter Network, a simple model architecture that rearranges deep features to infer spatial displacements from visual input -- which can parameterize robot actions. It makes no assumptions of objectness (e.g. canonical poses, models, or keypoints), it exploits spatial symmetries, and is orders of magnitude more sample efficient than our benchmarked alternatives in learning vision-based manipulation tasks: from stacking a pyramid of blocks, to assembling kits with unseen objects; from manipulating deformable ropes, to pushing piles of small objects with closed-loop feedback. Our method can represent complex multi-modal policy distributions and generalizes to multi-step sequential tasks, as well as 6DoF pick-and-place. Experiments on 10 simulated tasks show that it learns faster and generalizes better than a variety of end-to-end baselines, including policies that use ground-truth object poses. We validate our methods with hardware in the real world.
+                        <b>Abstract</b>. Robotic manipulation can be formulated as inducing a sequence of spatial displacements: where the space being moved can encompass object(s) or an end effector. In this work, we propose the Transporter Network, a simple model architecture that rearranges deep features to infer spatial displacements from visual input -- which can parameterize robot actions. It makes no assumptions of objectness (e.g. canonical poses, models, or keypoints), it exploits spatial symmetries, and is orders of magnitude more sample efficient than our benchmarked alternatives in learning vision-based manipulation tasks: from stacking a pyramid of blocks, to assembling kits with unseen objects; from manipulating deformable ropes, to pushing piles of small objects with closed-loop feedback. Our method can represent complex multi-modal policy distributions and generalizes to multi-step sequential tasks, as well as 6DoF pick-and-place. Experiments on 10 simulated tasks show that it learns faster and generalizes better than a variety of end-to-end baselines, including policies that use ground-truth object poses. We validate our methods with hardware in the real world.
                     </p>
                 </div>
                 <div style="clear: both;"></div>
             </div>
-            <div class="section paper">
-                <h1>Paper</h1>
-                <p>Latest version (Oct 28, 2020): <a href="https://arxiv.org/abs/2010.14406">arXiv:2010.14406 [cs.RO]</a>.<br>To appear at the Conference on Robot Learning (CoRL) 2020</p><br>
-                <a href="https://arxiv.org/pdf/2010.14406.pdf"><img src="images/thumbnail-half.jpg"></a>
-            </div>
-            <div class="divider"></div>
-            <div class="section paper">
-                <h1>Code</h1>
-                <p>Coming soon.</p><br>
-
-            </div>
-            <div class="divider"></div>
             <div class="section recent-work">
-                <h1>Highlights</h1>
+                <!-- <h1>Highlights</h1> -->
                 <div class="highlight-proj">
                     <!-- <a href="http://arc.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
                         <source src="images/sim-pushing-piles.mp4" type="video/mp4">
                     </video><!-- </a> --><p>Pushing piles with closed-loop feedback</p>
                 </div>
                 <div class="highlight-proj">
-                    <video playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/sim-unseen-kit.mp4" type="video/mp4">
-                    </video><p>Pick-and-place with unseen objects</p>
+                    <!-- <a href="http://tossingbot.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
+                        <source src="images/real-assemble-kit.mp4" type="video/mp4">
+                    </video><!-- </a> --><p>Production pick-and-place w/o 3D models</p>
                 </div>
                 <div class="highlight-proj">
                     <!-- <a href="http://tossingbot.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
@@ -70,9 +58,9 @@
                     </video><p>Data collection UI</p>
                 </div> -->
                 <div class="highlight-proj">
-                    <!-- <a href="http://tossingbot.cs.princeton.edu/"> --><video width="100%" playsinline="" muted="" autoplay="" loop="">
-                        <source src="images/real-assemble-kit.mp4" type="video/mp4">
-                    </video><!-- </a> --><p>Production pick-and-place w/o 3D models</p>
+                    <video playsinline="" muted="" autoplay="" loop="">
+                        <source src="images/sim-unseen-kit.mp4" type="video/mp4">
+                    </video><p>Pick-and-place with unseen objects</p>
                 </div>
                 <div class="highlight-proj">
                     <!-- <a href="https://graspinwild.cs.columbia.edu/"> --><video playsinline="" muted="" autoplay="" loop="">
@@ -84,7 +72,29 @@
                         <source src="images/real-stack-plates.mp4" type="video/mp4">
                     </video><!-- </a> --><p>Pick-conditioned placing from 10 examples</p>
                 </div>
-            </div>            
+            </div>      
+            <div class="divider"></div>  
+            <div class="section paper">
+                <h1>Paper</h1>
+                <p>Latest version (Oct 28, 2020): <a href="https://arxiv.org/abs/2010.14406">arXiv:2010.14406 [cs.RO]</a>.<br>Published at the Conference on Robot Learning (CoRL) 2020<br>
+                    <font color="4e79a7">&#9733; Plenary Talk, Best Paper Presentation Award Finalist, CoRL &#9733;</font></p><br>
+                <a href="https://arxiv.org/pdf/2010.14406.pdf"><img src="images/thumbnail-half.jpg"></a>
+            </div>
+            <div class="divider"></div>
+            <div class="section paper half">
+                <h1>Code</h1>
+                <p>Coming soon.</p><br>
+
+            </div>
+            <div class="section bibtex half">
+                <h1>Bibtex</h1>
+                <div class="code">@article{zeng2020transporter,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;title={Transporter Networks: Rearranging the Visual World for Robotic Manipulation},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;author={Zeng, Andy and Florence, Pete and Tompson, Jonathan and Welker, Stefan and Chien, Jonathan and Attarian, Maria and Armstrong, Travis and Krasin, Ivan and Duong, Dan and Sindhwani, Vikas and Lee, Johnny},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;journal={Conference on Robot Learning (CoRL)},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;year={2020}<br>
+}</div>
+            </div>    
             <div class="divider"></div>
             <div class="section team">
                 <h1>Team</h1>
@@ -129,19 +139,18 @@
             </div>
             <div style="clear: both;"></div>
             <div class="divider"></div>
+            <div class="section video">
+                <h1>Plenary Talk</h1>
+                <p>Watch it on YouTube (<a href="https://youtu.be/8afHfReCfPo?t=12214">link</a>)<br><a href="https://youtu.be/8afHfReCfPo?t=12214"><img src="images/talk-thumbnail.png" width="640px" style="border: 2px solid #191e3f; margin-top: 10px"></a></p>
+            </div>
+            <div class="section video">
+                <h1>Supplemental Video</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/496UVuAdOP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="divider"></div>
             <div class="section acknowledgements">
                 <h1>Acknowledgements</h1>
                 <p>Special thanks to Ken Goldberg, Razvan Surdulescu, Daniel Seita, Ayzaan Wahid, Vincent Vanhoucke, Anelia Angelova, for helpful feedback on writing, Sean Snyder, Jonathan Vela, Larry Bisares, Michael Villanueva, Brandon Hurd for operations and hardware support, Robert Baruch for software infrastructure, Jared Braun for UI contributions, Erwin Coumans for PyBullet advice, Laura Graesser for video narration.</p><br><br>
-            </div>
-            <div class="divider"></div>
-            <div class="section video">
-                <h1>Summary Video</h1>
-                <iframe width="910" height="512" src="https://www.youtube.com/embed/496UVuAdOP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="divider"></div>
-            <div class="section bibtex">
-                <h1>Bibtex</h1>
-                <p>Coming soon.</p><br>
             </div>
             <br><br><br><br><br><br><br><br><br><br>
             <div class="divider"></div>

@@ -98,6 +98,7 @@ h1 {
 #profile {
     padding: 30px 0px 17px 30px;
     border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
 }
 
 #profile-name {
@@ -217,8 +218,25 @@ h1 {
     margin-bottom: 30px;
 }
 
-.bibtex p {
+.half {
+    width: 450px;
+    float: left;
+}
+
+div.code {
+    font-size: 12px;
+    line-height: 20px;
     margin-left: 30px;
+    border-radius: 0.35em;
+    border: solid 2px #efefef;
+    background: #f7f7f7;
+    font-family: monospace;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space:nowrap;
+    width: 405px;
+    margin-bottom: 30px;
 }
 
 .acknowledgements p {
@@ -263,6 +281,9 @@ h1 {
 .divider {
     width: 100%;
     border-bottom: 1px solid #ddd;
+    clear: both;
+    content: "";
+    display: table;
 }
 
 ul {
