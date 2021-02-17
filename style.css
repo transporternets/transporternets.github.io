@@ -215,7 +215,6 @@ h1 {
 
 .video iframe {
     margin-left: 30px;
-    margin-bottom: 30px;
 }
 
 .half {
@@ -274,6 +273,17 @@ div.code {
     text-align: center;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+.highlights a {
+    text-decoration: none;
+    border-bottom: none;
+    float: left;
+}
+
+.highlights a:hover {
+    text-decoration: none;
+    border-bottom: none;
 }
 
 /**************************************************/
